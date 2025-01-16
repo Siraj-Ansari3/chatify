@@ -1,0 +1,117 @@
+.sidebar {
+  width: 20vw;
+  background-color: #012a4a; /* Dark background similar to a navbar */
+  color: #ecf0f1; /* Light text for contrast */
+  padding: 0px 20px;
+  border: 1px solid #34495e;
+  border-radius: 0px;
+  height: 100%;
+  overflow-y: scroll;
+  border-right: 2px solid #34495e; /* Slightly darker border for depth */
+  transition: all 0.3s ease-in-out; /* Smooth animations */
+}
+
+/* Sidebar header */
+.sidebar h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #ecf0f1; /* Navbar-like white text */
+  text-align: center;
+}
+
+/* Individual contact container */
+.contact {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #34495e; /* Slightly lighter shade for contrast */
+  color: #ecf0f1;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s ease-in-out; /* Smooth hover animation */
+}
+
+.contact img{
+  width: 33px;
+  height: 33px;
+}
+.contact img:hover{
+  transform: scale(1.15);
+  transition-duration: 0.3s;
+}
+/* Hover effect for contacts */
+.contact:hover {
+  background-color: #2b445e; /* Navbar-inspired hover color */
+  color: #fff; /* Brighten the text on hover */
+  transform: scale(1.03); /* Slight zoom on hover */
+}
+
+/* Contact name text */
+.contact p {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Chatbox styles */
+.chatbox {
+  flex: 1;
+  padding: 10px;
+  background-color: #ecf0f1; /* Light background for contrast */
+  height: 100%;
+}
+
+/* Chatbox header */
+.chatbox h3 {
+  font-size: 24px;
+  color: #2c3e50; /* Darker text for visibility */
+}
+
+/* Scrollbar styles for the sidebar */
+.sidebar::-webkit-scrollbar {
+  width: 8px; /* Make the scrollbar thinner */
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: transparent; /* Remove the white background */
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Make the edges round */
+  border: 2px solid transparent; /* Add spacing for a clean look */
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Darker color when hovered */
+}
+
+/* Remove the default scrollbar arrows completely */
+.sidebar::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none; /* Ensure the buttons are fully hidden */
+}
+
+/* For Firefox compatibility */
+.sidebar {
+  scrollbar-width: thin; /* Make the scrollbar thin for modern browsers */
+  scrollbar-color: #888 transparent; /* Thumb color, no background color */
+}
+
+.img-name{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.option{
+  all: unset;
+  border-radius: 100%;
+  padding: 7px;  
+}
+
+.option:hover{
+  background-color: #585555;
+}

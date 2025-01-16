@@ -1,0 +1,121 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px; /* Smaller padding */
+  background: #012a4a; /* Forest green gradient */
+  color: white;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  height: 60px; /* Smaller navbar height */
+}
+
+.logo {
+  font-size: 1.8rem; /* Slightly smaller font size */
+  font-weight: 700;
+}
+
+.logo-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.logo-link:hover {
+  color: #e2e8f0; /* Light gray hover */
+}
+
+.nav-items {
+  display: flex;
+  gap: 20px; /* Adjusted spacing between items */
+}
+
+.nav-link {
+  display: inline-block; /* Make the link behave like a button */
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px; /* Smaller padding for smaller buttons */
+  background-color: #4a5568; /* Dark gray background */
+  border-radius: 6px; /* Slightly more rounded corners */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-size: 1rem; /* Smaller font size */
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  background-color: #2d3748; /* Slightly darker background */
+  color: white;
+  transform: translateY(-2px); /* Slight hover lift effect */
+}
+
+.nav-link:active {
+  transform: translateY(1px); /* Click effect (press down) */
+}
+
+.sign-out-button {
+  background-color: #e53e3e; /* Red background */
+  color: white;
+  padding: 8px 18px; /* Smaller padding for a smaller button */
+  border-radius: 6px; /* Rounded corners */
+  border: none;
+  font-size: 0.9rem; /* Smaller font size */
+  font-weight: 600;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    transform 0.3s ease;
+
+}
+
+.sign-out-button:hover {
+  background-color: #c53030; /* Darker red */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px); /* Hover lift effect */
+}
+
+.sign-out-button:active {
+  background-color: #9b2c2c; /* Dark red when clicked */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transform: translateY(1px); /* Click press effect */
+}
+
+.sign-out-button:focus {
+  outline: none;
+}
+
+.add-contact-button {
+  background-color: #007bff; /* Red background */
+  color: white;
+  padding: 8px 18px; /* Smaller padding for a smaller button */
+  border-radius: 6px; /* Rounded corners */
+  border: none;
+  font-size: 0.9rem; /* Smaller font size */
+  font-weight: 600;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease,
+    transform 0.3s ease;
+
+}
+
+.add-contact-button:hover {
+  background-color: #0460c2; /* Darker red */
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px); /* Hover lift effect */
+}
+
+.add-contact-button:active {
+  background-color: #024fa1; /* Dark red when clicked */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transform: translateY(1px); /* Click press effect */
+}
+
+.add-contact-button:focus {
+  outline: none;
+}

@@ -1,0 +1,30 @@
+  // const [selectedContact, setSelectedContact] = useState(null);
+
+  // const contacts = [
+  //   { id: 1, name: 'John Doe', messages: [] },
+  //   { id: 2, name: 'Jane Smith', messages: [] },
+  //   { id: 3, name: 'Alice Johnson', messages: [] },
+  // ];
+
+  // const handleContactClick = (contact) => {
+  //   setSelectedContact(contact);
+  // };
+
+  // return (
+  //   <div className="home-container">
+  //     {/* Sidebar */}
+  //     <div className="sidebar">
+  //       <h2>Contacts</h2>
+  //       <ContactList contacts={contacts} onContactClick={handleContactClick} />
+  //     </div>
+
+  //     {/* Chat View */}
+  //     <div className="chat-view">
+  //       {selectedContact ? (
+  //         <ChatBox contact={selectedContact} />
+  //       ) : (
+  //         <div className="placeholder">Select a contact to start chatting</div>
+  //       )}
+  //     </div>
+  //   </div>
+  // );

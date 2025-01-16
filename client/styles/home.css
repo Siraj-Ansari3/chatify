@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    /* background-color: red; */
+    width: 100vw;
+    height: calc(100vh - 70px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden; /* Prevent content overflow */
+}
